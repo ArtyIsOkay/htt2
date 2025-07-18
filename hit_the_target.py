@@ -65,3 +65,4 @@ if (turtle.xcor() >= TARGET_LEFT_X and
     print('Цель поражена!')
 else:
     print('Вы промахнулись!')
+turtle.exitonclick()
