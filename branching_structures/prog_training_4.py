@@ -9,7 +9,7 @@ month = int(input('Enter the month: '))
 year = int(input('Enter the year(The last two digits): '))
 
 # Вывести дату
-print(f'Date of birth - {day}.{month}.{year}')
+print(f'Date of birth - {day:02d}.{month:02d}.{year:02d}')
 
 # Рассчитать произведение дня и месяца
 mult = day * month
